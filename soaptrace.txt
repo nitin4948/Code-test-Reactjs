@@ -1,0 +1,327 @@
+*
+*
+SOAP REQUEST RECEIVED
+TIME: 13/Nov/2018:09:00:00
+SOAP URI: /AbfDocumentManager
+SOAPAction: http://tempuri.org/action/AbfDocumentManager.getRecipientTypesXml
+GUID: e18fba22-e0f8-4f03-ae7a-9ab7524b0482
+
+REQUEST MESSAGE:
+
+<?xml version='1.0' encoding='UTF-8'?>
+<soap:Envelope xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:soap='http://schemas.xmlsoap.org/soap/envelope/' xmlns:soapenc='http://schemas.xmlsoap.org/soap/encoding/' soap:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/' xmlns:ns5='http://tempuri.org/type'><soap:Header><SOAPSDK1:ABFJob xmlns:SOAPSDK1='http://abfhealth.com/JobControlHeader'><ShouldRunAtResource>ClientLayout=FAKE028</ShouldRunAtResource></SOAPSDK1:ABFJob></soap:Header><soap:Body><n:getRecipientTypesXml xmlns:n='http://tempuri.org/message/'><pobjSecContext href='#id0'></pobjSecContext></n:getRecipientTypesXml><id0 id='id0' soapenc:root='0' xsi:type='ns5:AbfSecurityContext'><description xsi:type='xsd:string'>UpdateDataXmlServlet</description><ticket xsi:type='xsd:string'>H49U5Q043Y35345OHJ37534594U3593UJFGDFHHSHK</ticket><dataSourceDefinition xsi:type='xsd:string'>/FAKE/028/*</dataSourceDefinition></id0></soap:Body></soap:Envelope>
+*
+*
+
+*
+*
+SOAP RESPONSE
+TIME: 13/Nov/2018:09:00:01
+SOAP URI: /AbfDocumentManager
+SOAPAction: http://tempuri.org/action/AbfDocumentManager.getRecipientTypesXml
+GUID: e18fba22-e0f8-4f03-ae7a-9ab7524b0482
+HRESULT: 0x00000000
+HTTP Status: 200
+
+REQUEST MESSAGE:
+
+<?xml version='1.0' encoding='UTF-8'?>
+<soap:Envelope xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:soap='http://schemas.xmlsoap.org/soap/envelope/' xmlns:soapenc='http://schemas.xmlsoap.org/soap/encoding/' soap:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/' xmlns:ns5='http://tempuri.org/type'><soap:Header><SOAPSDK1:ABFJob xmlns:SOAPSDK1='http://abfhealth.com/JobControlHeader'><ShouldRunAtResource>ClientLayout=FAKE028</ShouldRunAtResource></SOAPSDK1:ABFJob></soap:Header><soap:Body><n:getRecipientTypesXml xmlns:n='http://tempuri.org/message/'><pobjSecContext href='#id0'></pobjSecContext></n:getRecipientTypesXml><id0 id='id0' soapenc:root='0' xsi:type='ns5:AbfSecurityContext'><description xsi:type='xsd:string'>UpdateDataXmlServlet</description><ticket xsi:type='xsd:string'>H49U5Q043Y35345OHJ37534594U3593UJFGDFHHSHK</ticket><dataSourceDefinition xsi:type='xsd:string'>/FAKE/028/*</dataSourceDefinition></id0></soap:Body></soap:Envelope>
+
+RESPONSE MESSAGE:
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Body SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Fault><faultcode>SOAP-ENV:Surrogate</faultcode><faultstring>An error occured inside the Surrogate.  Could not call Load the WSDL File into the MSSOAP.WSDLReader Object Error Description: Unknown</faultstring><detail><HRESULT>0x80040154</HRESULT></detail></SOAP-ENV:Fault></SOAP-ENV:Body></SOAP-ENV:Envelope>
+*
+*
+
+*
+*
+SOAP REQUEST RECEIVED
+TIME: 14/Nov/2018:05:56:43
+SOAP URI: /AbfGroupRulesManager
+SOAPAction: http://tempuri.org/action/AbfGroupRulesManager.getAvailableGroupRules
+GUID: d4a54715-c0d7-42bd-8af2-3fdc1d9a56b0
+
+REQUEST MESSAGE:
+
+<?xml version='1.0' encoding='UTF-8'?>
+<soap:Envelope xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:soap='http://schemas.xmlsoap.org/soap/envelope/' xmlns:soapenc='http://schemas.xmlsoap.org/soap/encoding/' soap:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/' xmlns:ns5='http://tempuri.org/type'><soap:Header><SOAPSDK1:ABFJob xmlns:SOAPSDK1='http://abfhealth.com/JobControlHeader'><MustRunAtResource>WebUserDatabase</MustRunAtResource></SOAPSDK1:ABFJob></soap:Header><soap:Body><n:getAvailableGroupRules xmlns:n='http://tempuri.org/message/'><oCtx href='#id0'></oCtx></n:getAvailableGroupRules><id0 id='id0' soapenc:root='0' xsi:type='ns5:AbfSecurityContext'><userId xsi:type='xsd:string'>albeip</userId><client xsi:type='xsd:string'>5707</client><layout xsi:type='xsd:string'>028</layout><accessEntryId xsi:type='xsd:string'>1601020</accessEntryId><description xsi:type='xsd:string'>5707_028 - Wisconsin Physicians Service Insurance Corp: Superuser</description><ticket xsi:type='xsd:string'>eQcJjZZy3uFkMfKqDFLOUEPrNcYlC0E1uSIqMzJcpiU=</ticket><dataSourceDefinition xsi:type='xsd:string'>/5707/028/*</dataSourceDefinition><roleId xsi:type='xsd:string'>00000001</roleId></id0></soap:Body></soap:Envelope>
+*
+*
+
+*
+*
+SOAP RESPONSE
+TIME: 14/Nov/2018:05:56:52
+SOAP URI: /AbfGroupRulesManager
+SOAPAction: http://tempuri.org/action/AbfGroupRulesManager.getAvailableGroupRules
+GUID: d4a54715-c0d7-42bd-8af2-3fdc1d9a56b0
+HRESULT: 0x00000000
+HTTP Status: 200
+
+REQUEST MESSAGE:
+
+<?xml version='1.0' encoding='UTF-8'?>
+<soap:Envelope xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:soap='http://schemas.xmlsoap.org/soap/envelope/' xmlns:soapenc='http://schemas.xmlsoap.org/soap/encoding/' soap:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/' xmlns:ns5='http://tempuri.org/type'><soap:Header><SOAPSDK1:ABFJob xmlns:SOAPSDK1='http://abfhealth.com/JobControlHeader'><MustRunAtResource>WebUserDatabase</MustRunAtResource></SOAPSDK1:ABFJob></soap:Header><soap:Body><n:getAvailableGroupRules xmlns:n='http://tempuri.org/message/'><oCtx href='#id0'></oCtx></n:getAvailableGroupRules><id0 id='id0' soapenc:root='0' xsi:type='ns5:AbfSecurityContext'><userId xsi:type='xsd:string'>albeip</userId><client xsi:type='xsd:string'>5707</client><layout xsi:type='xsd:string'>028</layout><accessEntryId xsi:type='xsd:string'>1601020</accessEntryId><description xsi:type='xsd:string'>5707_028 - Wisconsin Physicians Service Insurance Corp: Superuser</description><ticket xsi:type='xsd:string'>eQcJjZZy3uFkMfKqDFLOUEPrNcYlC0E1uSIqMzJcpiU=</ticket><dataSourceDefinition xsi:type='xsd:string'>/5707/028/*</dataSourceDefinition><roleId xsi:type='xsd:string'>00000001</roleId></id0></soap:Body></soap:Envelope>
+
+RESPONSE MESSAGE:
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Body SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><SOAPSDK1:getAvailableGroupRulesResponse xmlns:SOAPSDK1="http://tempuri.org/message/"><Result>&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;collection type=&quot;groupRules&quot; totalRecords=&quot;38&quot;&gt;&lt;groupRules&gt;&lt;groupRule&gt;&lt;id&gt;CSM&lt;/id&gt;&lt;isRequired&gt;false&lt;/isRequired&gt;&lt;dir&gt;CustomerServiceMessages&lt;/dir&gt;&lt;description&gt;Customer Service Messages&lt;/description&gt;&lt;permission&gt;CAN_ACCESS_GROUPRULES_CSM&lt;/permission&gt;&lt;/groupRule&gt;&lt;groupRule&gt;&lt;id&gt;CDM&lt;/id&gt;&lt;isRequired&gt;false&lt;/isRequired&gt;&lt;dir&gt;CheckData&lt;/dir&gt;&lt;description&gt;Check Data Manipulation&lt;/description&gt;&lt;permission&gt;CAN_ACCESS_GROUPRULES_CDM&lt;/permission&gt;&lt;/groupRule&gt;&lt;groupRule&gt;&lt;id&gt;CHT&lt;/id&gt;&lt;isRequired&gt;false&lt;/isRequired&gt;&lt;dir&gt;CheckText&lt;/dir&gt;&lt;description&gt;Check Text&lt;/description&gt;&lt;permission&gt;CAN_ACCESS_GROUPRULES_CHT&lt;/permission&gt;&lt;/groupRule&gt;&lt;groupRule&gt;&lt;id&gt;MIC&lt;/id&gt;&lt;isRequired&gt;false&lt;/isRequired&gt;&lt;dir&gt;MicrInfo&lt;/dir&gt;&lt;description&gt;MICR Information&lt;/description&gt;&lt;permission&gt;CAN_ACCESS_GROUPRULES_MIC&lt;/permission&gt;&lt;/groupRule&gt;&lt;groupRule&gt;&lt;id&gt;RAD&lt;/id&gt;&lt;isRequired&gt;true&lt;/isRequired&gt;&lt;dir&gt;RetAddress&lt;/dir&gt;&lt;description&gt;Return Address Definition&lt;/description&gt;&lt;permission&gt;CAN_ACCESS_GROUPRULES_RAD&lt;/permission&gt;&lt;/groupRule&gt;&lt;groupRule&gt;&lt;id&gt;SIG&lt;/id&gt;&lt;isRequired&gt;false&lt;/isRequired&gt;&lt;dir&gt;Signature&lt;/dir&gt;&lt;description&gt;Signatures&lt;/description&gt;&lt;permission&gt;CAN_ACCESS_GROUPRULES_SIG&lt;/permission&gt;&lt;/groupRule&gt;&lt;groupRule&gt;&lt;id&gt;TAX&lt;/id&gt;&lt;isRequired&gt;false&lt;/isRequired&gt;&lt;dir&gt;TaxID&lt;/dir&gt;&lt;description&gt;Tax ID Arrangements&lt;/description&gt;&lt;permission&gt;CAN_ACCESS_GROUPRULES_TAX&lt;/permission&gt;&lt;/groupRule&gt;&lt;groupRule&gt;&lt;id&gt;OVR&lt;/id&gt;&lt;isRequired&gt;false&lt;/isRequired&gt;&lt;dir&gt;Overlay&lt;/dir&gt;&lt;description&gt;Overlay Definition&lt;/description&gt;&lt;permission&gt;CAN_ACCESS_GROUPRULES_OVR&lt;/permission&gt;&lt;/groupRule&gt;&lt;groupRule&gt;&lt;id&gt;HLD&lt;/id&gt;&lt;isRequired&gt;false&lt;/isRequired&gt;&lt;dir&gt;AutoHold&lt;/dir&gt;&lt;description&gt;Auto Hold&lt;/description&gt;&lt;permission&gt;CAN_ACCESS_GROUPRULES_HLD&lt;/permission&gt;&lt;/groupRule&gt;&lt;groupRule&gt;&lt;id&gt;PAR&lt;/id&gt;&lt;isRequired&gt;true&lt;/isRequired&gt;&lt;dir&gt;ProdArr&lt;/dir&gt;&lt;description&gt;Production Arrangements&lt;/description&gt;&lt;permission&gt;CAN_ACCESS_GROUPRULES_PAR&lt;/permission&gt;&lt;/groupRule&gt;&lt;groupRule&gt;&lt;id&gt;ERI&lt;/id&gt;&lt;isRequired&gt;false&lt;/isRequired&gt;&lt;dir&gt;ErisaMsg&lt;/dir&gt;&lt;description&gt;Erisa Messages&lt;/description&gt;&lt;permission&gt;CAN_ACCESS_GROUPRULES_ERI&lt;/permission&gt;&lt;/groupRule&gt;&lt;groupRule&gt;&lt;id&gt;XIN&lt;/id&gt;&lt;isRequired&gt;false&lt;/isRequired&gt;&lt;dir&gt;ExtraInsert&lt;/dir&gt;&lt;description&gt;Xtra Inserts&lt;/description&gt;&lt;permission&gt;CAN_ACCESS_GROUPRULES_XIN&lt;/permission&gt;&lt;/groupRule&gt;&lt;groupRule&gt;&lt;id&gt;HDR&lt;/id&gt;&lt;isRequired&gt;false&lt;/isRequired&gt;&lt;dir&gt;HighDollarRev&lt;/dir&gt;&lt;description&gt;High Dollar Review&lt;/description&gt;&lt;permission&gt;CAN_ACCESS_GROUPRULES_HDR&lt;/permission&gt;&lt;/groupRule&gt;&lt;groupRule&gt;&lt;id&gt;PIO&lt;/id&gt;&lt;isRequired&gt;false&lt;/isRequired&gt;&lt;dir&gt;PIOMsg&lt;/dir&gt;&lt;description&gt;Provider Insured Option Messages&lt;/description&gt;&lt;permission&gt;CAN_ACCESS_GROUPRULES_PIO&lt;/permission&gt;&lt;/groupRule&gt;&lt;groupRule&gt;&lt;id&gt;IMG&lt;/id&gt;&lt;isRequired&gt;false&lt;/isRequired&gt;&lt;dir&gt;ImageDef&lt;/dir&gt;&lt;description&gt;Image Definition&lt;/description&gt;&lt;permission&gt;CAN_ACCESS_GROUPRULES_IMG&lt;/permission&gt;&lt;/groupRule&gt;&lt;groupRule&gt;&lt;id&gt;SSN&lt;/id&gt;&lt;isRequired&gt;false&lt;/isRequired&gt;&lt;dir&gt;SSNArr&lt;/dir&gt;&lt;description&gt;SSN Arrangement&lt;/description&gt;&lt;permission&gt;CAN_ACCESS_GROUPRULES_SSN&lt;/permission&gt;&lt;/groupRule&gt;&lt;groupRule&gt;&lt;id&gt;DPX&lt;/id&gt;&lt;isRequired&gt;false&lt;/isRequired&gt;&lt;dir&gt;Duplex&lt;/dir&gt;&lt;description&gt;Duplex Definition&lt;/description&gt;&lt;permission&gt;CAN_ACCESS_GROUPRULES_DPX&lt;/permission&gt;&lt;/groupRule&gt;&lt;groupRule&gt;&lt;id&gt;OVT&lt;/id&gt;&lt;isRequired&gt;false&lt;/isRequired&gt;&lt;dir&gt;OverlayTrans&lt;/dir&gt;&lt;description&gt;Overlay Translation&lt;/description&gt;&lt;permission&gt;CAN_ACCESS_GROUPRULES_OVT&lt;/permission&gt;&lt;/groupRule&gt;&lt;groupRule&gt;&lt;id&gt;CPC&lt;/id&gt;&lt;isRequired&gt;false&lt;/isRequired&gt;&lt;dir/&gt;&lt;description&gt;Cross Payer Consolidation&lt;/description&gt;&lt;permission&gt;CAN_ACCESS_GROUPRULES_CPC&lt;/permission&gt;&lt;/groupRule&gt;&lt;groupRule&gt;&lt;id&gt;PSD&lt;/id&gt;&lt;isRequired&gt;true&lt;/isRequired&gt;&lt;dir&gt;PaperStockDtr&lt;/dir&gt;&lt;description&gt;Paper Stock Determination&lt;/description&gt;&lt;permission&gt;CAN_ACCESS_GROUPRULES_PSD&lt;/permission&gt;&lt;/groupRule&gt;&lt;groupRule&gt;&lt;id&gt;DIR&lt;/id&gt;&lt;isRequired&gt;false&lt;/isRequired&gt;&lt;dir/&gt;&lt;description&gt;Direct Messages&lt;/description&gt;&lt;permission&gt;CAN_ACCESS_GROUPRULES_DIR&lt;/permission&gt;&lt;/groupRule&gt;&lt;groupRule&gt;&lt;id&gt;SPM&lt;/id&gt;&lt;isRequired&gt;false&lt;/isRequired&gt;&lt;dir/&gt;&lt;description&gt;Suppress Accumulator Messages&lt;/description&gt;&lt;permission&gt;CAN_ACCESS_GROUPRULES_SPM&lt;/permission&gt;&lt;/groupRule&gt;&lt;groupRule&gt;&lt;id&gt;TCR&lt;/id&gt;&lt;isRequired&gt;false&lt;/isRequired&gt;&lt;dir/&gt;&lt;description&gt;Test Check Routing&lt;/description&gt;&lt;permission&gt;CAN_ACCESS_GROUPRULES_TCR&lt;/permission&gt;&lt;/groupRule&gt;&lt;groupRule&gt;&lt;id&gt;BDR&lt;/id&gt;&lt;isRequired&gt;false&lt;/isRequired&gt;&lt;dir/&gt;&lt;description&gt;Bad Data Routing&lt;/description&gt;&lt;permission&gt;CAN_ACCESS_GROUPRULES_BDR&lt;/permission&gt;&lt;/groupRule&gt;&lt;groupRule&gt;&lt;id&gt;CMH&lt;/id&gt;&lt;isRequired&gt;false&lt;/isRequired&gt;&lt;dir/&gt;&lt;description&gt;Custom Mail Handling&lt;/description&gt;&lt;permission&gt;CAN_ACCESS_GROUPRULES_CMH&lt;/permission&gt;&lt;/groupRule&gt;&lt;groupRule&gt;&lt;id&gt;8IN&lt;/id&gt;&lt;isRequired&gt;false&lt;/isRequired&gt;&lt;dir/&gt;&lt;description&gt;835 Information&lt;/description&gt;&lt;permission&gt;CAN_ACCESS_GROUPRULES_8IN&lt;/permission&gt;&lt;/groupRule&gt;&lt;groupRule&gt;&lt;id&gt;8GN&lt;/id&gt;&lt;isRequired&gt;false&lt;/isRequired&gt;&lt;dir/&gt;&lt;description&gt;835 Generation&lt;/description&gt;&lt;permission&gt;CAN_ACCESS_GROUPRULES_8GN&lt;/permission&gt;&lt;/groupRule&gt;&lt;groupRule&gt;&lt;id&gt;UND&lt;/id&gt;&lt;isRequired&gt;false&lt;/isRequired&gt;&lt;dir/&gt;&lt;description&gt;Undeliverable&lt;/description&gt;&lt;permission&gt;CAN_ACCESS_GROUPRULES_UND&lt;/permission&gt;&lt;/groupRule&gt;&lt;groupRule&gt;&lt;id&gt;CCR&lt;/id&gt;&lt;isRequired&gt;false&lt;/isRequired&gt;&lt;dir/&gt;&lt;description&gt;Custom Client Routing&lt;/description&gt;&lt;permission&gt;CAN_ACCESS_GROUPRULES_CCR&lt;/permission&gt;&lt;/groupRule&gt;&lt;groupRule&gt;&lt;id&gt;SCH&lt;/id&gt;&lt;isRequired&gt;false&lt;/isRequired&gt;&lt;dir/&gt;&lt;description&gt;Schedule Release&lt;/description&gt;&lt;permission&gt;CAN_ACCESS_GROUPRULES_SCH&lt;/permission&gt;&lt;/groupRule&gt;&lt;groupRule&gt;&lt;id&gt;EEB&lt;/id&gt;&lt;isRequired&gt;false&lt;/isRequired&gt;&lt;dir/&gt;&lt;description&gt;EEOB Arrangements&lt;/description&gt;&lt;permission&gt;CAN_ACCESS_GROUPRULES_EEB&lt;/permission&gt;&lt;/groupRule&gt;&lt;groupRule&gt;&lt;id&gt;FVT&lt;/id&gt;&lt;isRequired&gt;false&lt;/isRequired&gt;&lt;dir/&gt;&lt;description&gt;FVTech&lt;/description&gt;&lt;permission&gt;CAN_ACCESS_GROUPRULES_FVT&lt;/permission&gt;&lt;/groupRule&gt;&lt;groupRule&gt;&lt;id&gt;HCR&lt;/id&gt;&lt;isRequired&gt;false&lt;/isRequired&gt;&lt;dir/&gt;&lt;description&gt;Health Care Reform Message&lt;/description&gt;&lt;permission&gt;CAN_ACCESS_GROUPRULES_HCR&lt;/permission&gt;&lt;/groupRule&gt;&lt;groupRule&gt;&lt;id&gt;LBX&lt;/id&gt;&lt;isRequired&gt;false&lt;/isRequired&gt;&lt;dir/&gt;&lt;description&gt;Super HPUSA Lockbox&lt;/description&gt;&lt;permission&gt;CAN_ACCESS_GROUPRULES_LBX&lt;/permission&gt;&lt;/groupRule&gt;&lt;groupRule&gt;&lt;id&gt;NCO&lt;/id&gt;&lt;isRequired&gt;false&lt;/isRequired&gt;&lt;dir/&gt;&lt;description&gt;NCOA&lt;/description&gt;&lt;permission&gt;CAN_ACCESS_GROUPRULES_NCO&lt;/permission&gt;&lt;/groupRule&gt;&lt;groupRule&gt;&lt;id&gt;COL&lt;/id&gt;&lt;isRequired&gt;false&lt;/isRequired&gt;&lt;dir/&gt;&lt;description&gt;Color Print&lt;/description&gt;&lt;permission&gt;CAN_ACCESS_GROUPRULES_COL&lt;/permission&gt;&lt;/groupRule&gt;&lt;groupRule&gt;&lt;id&gt;ELV&lt;/id&gt;&lt;isRequired&gt;false&lt;/isRequired&gt;&lt;dir/&gt;&lt;description&gt;Elavon Document Delivery Group Rule&lt;/description&gt;&lt;permission&gt;CAN_ACCESS_GROUPRULES_ELV&lt;/permission&gt;&lt;/groupRule&gt;&lt;groupRule&gt;&lt;id&gt;EPE&lt;/id&gt;&lt;isRequired&gt;false&lt;/isRequired&gt;&lt;dir/&gt;&lt;description&gt;Episodic EOB&lt;/description&gt;&lt;permission&gt;CAN_ACCESS_GROUPRULES_EPE&lt;/permission&gt;&lt;/groupRule&gt;&lt;/groupRules&gt;&lt;/collection&gt;
+</Result></SOAPSDK1:getAvailableGroupRulesResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+*
+*
+
+*
+*
+SOAP REQUEST RECEIVED
+TIME: 14/Nov/2018:05:56:54
+SOAP URI: /AbfGroupRulesManager
+SOAPAction: http://tempuri.org/action/AbfGroupRulesManager.chkSysBatchAndTime
+GUID: 67c8278b-8364-4a85-b36c-40c12893ef03
+
+REQUEST MESSAGE:
+
+<?xml version='1.0' encoding='UTF-8'?>
+<soap:Envelope xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:soap='http://schemas.xmlsoap.org/soap/envelope/' xmlns:soapenc='http://schemas.xmlsoap.org/soap/encoding/' soap:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/' xmlns:ns5='http://tempuri.org/type'><soap:Header><SOAPSDK1:ABFJob xmlns:SOAPSDK1='http://abfhealth.com/JobControlHeader'><ShouldRunAtResource>ClientLayout=5707028</ShouldRunAtResource></SOAPSDK1:ABFJob></soap:Header><soap:Body><n:chkSysBatchAndTime xmlns:n='http://tempuri.org/message/'><oCtx href='#id0'></oCtx></n:chkSysBatchAndTime><id0 id='id0' soapenc:root='0' xsi:type='ns5:AbfSecurityContext'><userId xsi:type='xsd:string'>albeip</userId><client xsi:type='xsd:string'>5707</client><layout xsi:type='xsd:string'>028</layout><accessEntryId xsi:type='xsd:string'>1601020</accessEntryId><description xsi:type='xsd:string'>5707_028 - Wisconsin Physicians Service Insurance Corp: Superuser</description><ticket xsi:type='xsd:string'>eQcJjZZy3uFkMfKqDFLOUEPrNcYlC0E1uSIqMzJcpiU=</ticket><dataSourceDefinition xsi:type='xsd:string'>/5707/028/*</dataSourceDefinition><roleId xsi:type='xsd:string'>00000001</roleId></id0></soap:Body></soap:Envelope>
+*
+*
+
+*
+*
+SOAP REQUEST RECEIVED
+TIME: 14/Nov/2018:05:56:54
+SOAP URI: /CHCHomePageManager
+SOAPAction: http://tempuri.org/action/HomePageManager.getContacts
+GUID: 8e8a26cb-739b-4279-99b5-39fb1931142b
+
+REQUEST MESSAGE:
+
+<?xml version='1.0' encoding='UTF-8'?>
+<soap:Envelope xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:soap='http://schemas.xmlsoap.org/soap/envelope/' xmlns:soapenc='http://schemas.xmlsoap.org/soap/encoding/' soap:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'><soap:Header><SOAPSDK1:ABFJob xmlns:SOAPSDK1='http://abfhealth.com/JobControlHeader'><ShouldRunAtResource>ClientLayout=5707028</ShouldRunAtResource></SOAPSDK1:ABFJob></soap:Header><soap:Body><n:getContacts xmlns:n='http://tempuri.org/message/'><clientLayout xsi:type='xsd:string'>5707028</clientLayout></n:getContacts></soap:Body></soap:Envelope>
+*
+*
+
+*
+*
+SOAP REQUEST RECEIVED
+TIME: 14/Nov/2018:05:56:54
+SOAP URI: /AbfMessageManager
+SOAPAction: http://tempuri.org/action/AbfMessageManager.displayMessages
+GUID: 31cffee0-fb82-4695-9100-253601972aaf
+
+REQUEST MESSAGE:
+
+<?xml version='1.0' encoding='UTF-8'?>
+<soap:Envelope xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:soap='http://schemas.xmlsoap.org/soap/envelope/' xmlns:soapenc='http://schemas.xmlsoap.org/soap/encoding/' soap:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/' xmlns:ns5='http://tempuri.org/type'><soap:Header><SOAPSDK1:ABFJob xmlns:SOAPSDK1='http://abfhealth.com/JobControlHeader'><ShouldRunAtResource>ClientLayout=5707028</ShouldRunAtResource></SOAPSDK1:ABFJob></soap:Header><soap:Body><n:displayMessages xmlns:n='http://tempuri.org/message/'><oCtx href='#id0'></oCtx></n:displayMessages><id0 id='id0' soapenc:root='0' xsi:type='ns5:AbfSecurityContext'><userId xsi:type='xsd:string'>albeip</userId><client xsi:type='xsd:string'>5707</client><layout xsi:type='xsd:string'>028</layout><accessEntryId xsi:type='xsd:string'>1601020</accessEntryId><description xsi:type='xsd:string'>5707_028 - Wisconsin Physicians Service Insurance Corp: Superuser</description><ticket xsi:type='xsd:string'>eQcJjZZy3uFkMfKqDFLOUEPrNcYlC0E1uSIqMzJcpiU=</ticket><dataSourceDefinition xsi:type='xsd:string'>/5707/028/*</dataSourceDefinition><roleId xsi:type='xsd:string'>00000001</roleId></id0></soap:Body></soap:Envelope>
+*
+*
+
+*
+*
+SOAP REQUEST RECEIVED
+TIME: 14/Nov/2018:05:56:54
+SOAP URI: /CHCHomePageManager
+SOAPAction: http://tempuri.org/action/HomePageManager.getProductOutputMetrics
+GUID: aca72453-458d-47b0-a2bf-b711538877ff
+
+REQUEST MESSAGE:
+
+<?xml version='1.0' encoding='UTF-8'?>
+<soap:Envelope xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:soap='http://schemas.xmlsoap.org/soap/envelope/' xmlns:soapenc='http://schemas.xmlsoap.org/soap/encoding/' soap:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'><soap:Header><SOAPSDK1:ABFJob xmlns:SOAPSDK1='http://abfhealth.com/JobControlHeader'><ShouldRunAtResource>ClientLayout=5707028</ShouldRunAtResource></SOAPSDK1:ABFJob></soap:Header><soap:Body><n:getProductOutputMetrics xmlns:n='http://tempuri.org/message/'><clientLayout xsi:type='xsd:string'>5707028</clientLayout><userType xsi:type='xsd:string'>E</userType></n:getProductOutputMetrics></soap:Body></soap:Envelope>
+*
+*
+
+*
+*
+SOAP REQUEST RECEIVED
+TIME: 14/Nov/2018:05:56:54
+SOAP URI: /CHCHomePageManager
+SOAPAction: http://tempuri.org/action/HomePageManager.getNumActiveSiebelTickets
+GUID: 56df0748-7e1d-473f-99a8-a77a3bd41785
+
+REQUEST MESSAGE:
+
+<?xml version='1.0' encoding='UTF-8'?>
+<soap:Envelope xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:soap='http://schemas.xmlsoap.org/soap/envelope/' xmlns:soapenc='http://schemas.xmlsoap.org/soap/encoding/' soap:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'><soap:Header><SOAPSDK1:ABFJob xmlns:SOAPSDK1='http://abfhealth.com/JobControlHeader'><ShouldRunAtResource>ClientLayout=5707028</ShouldRunAtResource></SOAPSDK1:ABFJob></soap:Header><soap:Body><n:getNumActiveSiebelTickets xmlns:n='http://tempuri.org/message/'><clientLayout xsi:type='xsd:string'>5707028</clientLayout></n:getNumActiveSiebelTickets></soap:Body></soap:Envelope>
+*
+*
+
+*
+*
+SOAP REQUEST RECEIVED
+TIME: 14/Nov/2018:05:56:54
+SOAP URI: /CHCHomePageManager
+SOAPAction: http://tempuri.org/action/HomePageManager.getPaymentAndSavingsMetrics
+GUID: fa19faed-bde1-4031-a94c-a309289c41f4
+
+REQUEST MESSAGE:
+
+<?xml version='1.0' encoding='UTF-8'?>
+<soap:Envelope xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:soap='http://schemas.xmlsoap.org/soap/envelope/' xmlns:soapenc='http://schemas.xmlsoap.org/soap/encoding/' soap:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'><soap:Header><SOAPSDK1:ABFJob xmlns:SOAPSDK1='http://abfhealth.com/JobControlHeader'><ShouldRunAtResource>ClientLayout=5707028</ShouldRunAtResource></SOAPSDK1:ABFJob></soap:Header><soap:Body><n:getPaymentAndSavingsMetrics xmlns:n='http://tempuri.org/message/'><clientLayout xsi:type='xsd:string'>5707028</clientLayout></n:getPaymentAndSavingsMetrics></soap:Body></soap:Envelope>
+*
+*
+
+*
+*
+SOAP RESPONSE
+TIME: 14/Nov/2018:05:56:54
+SOAP URI: /AbfGroupRulesManager
+SOAPAction: http://tempuri.org/action/AbfGroupRulesManager.chkSysBatchAndTime
+GUID: 67c8278b-8364-4a85-b36c-40c12893ef03
+HRESULT: 0x00000000
+HTTP Status: 200
+
+REQUEST MESSAGE:
+
+<?xml version='1.0' encoding='UTF-8'?>
+<soap:Envelope xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:soap='http://schemas.xmlsoap.org/soap/envelope/' xmlns:soapenc='http://schemas.xmlsoap.org/soap/encoding/' soap:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/' xmlns:ns5='http://tempuri.org/type'><soap:Header><SOAPSDK1:ABFJob xmlns:SOAPSDK1='http://abfhealth.com/JobControlHeader'><ShouldRunAtResource>ClientLayout=5707028</ShouldRunAtResource></SOAPSDK1:ABFJob></soap:Header><soap:Body><n:chkSysBatchAndTime xmlns:n='http://tempuri.org/message/'><oCtx href='#id0'></oCtx></n:chkSysBatchAndTime><id0 id='id0' soapenc:root='0' xsi:type='ns5:AbfSecurityContext'><userId xsi:type='xsd:string'>albeip</userId><client xsi:type='xsd:string'>5707</client><layout xsi:type='xsd:string'>028</layout><accessEntryId xsi:type='xsd:string'>1601020</accessEntryId><description xsi:type='xsd:string'>5707_028 - Wisconsin Physicians Service Insurance Corp: Superuser</description><ticket xsi:type='xsd:string'>eQcJjZZy3uFkMfKqDFLOUEPrNcYlC0E1uSIqMzJcpiU=</ticket><dataSourceDefinition xsi:type='xsd:string'>/5707/028/*</dataSourceDefinition><roleId xsi:type='xsd:string'>00000001</roleId></id0></soap:Body></soap:Envelope>
+
+RESPONSE MESSAGE:
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Body SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><SOAPSDK1:chkSysBatchAndTimeResponse xmlns:SOAPSDK1="http://tempuri.org/message/"><Result>false</Result></SOAPSDK1:chkSysBatchAndTimeResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+*
+*
+
+*
+*
+SOAP RESPONSE
+TIME: 14/Nov/2018:05:56:56
+SOAP URI: /CHCHomePageManager
+SOAPAction: http://tempuri.org/action/HomePageManager.getContacts
+GUID: 8e8a26cb-739b-4279-99b5-39fb1931142b
+HRESULT: 0x00000000
+HTTP Status: 200
+
+REQUEST MESSAGE:
+
+<?xml version='1.0' encoding='UTF-8'?>
+<soap:Envelope xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:soap='http://schemas.xmlsoap.org/soap/envelope/' xmlns:soapenc='http://schemas.xmlsoap.org/soap/encoding/' soap:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'><soap:Header><SOAPSDK1:ABFJob xmlns:SOAPSDK1='http://abfhealth.com/JobControlHeader'><ShouldRunAtResource>ClientLayout=5707028</ShouldRunAtResource></SOAPSDK1:ABFJob></soap:Header><soap:Body><n:getContacts xmlns:n='http://tempuri.org/message/'><clientLayout xsi:type='xsd:string'>5707028</clientLayout></n:getContacts></soap:Body></soap:Envelope>
+
+RESPONSE MESSAGE:
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Body SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><SOAPSDK1:getContactsResponse xmlns:SOAPSDK1="http://tempuri.org/message/"><Result>[{&quot;id&quot;:1619,&quot;title&quot;:&quot;Client Analyst&quot;,&quot;name&quot;:&quot;Blake Harner&quot;,&quot;email&quot;:&quot;Bharner@changehealthcare.com&quot;,&quot;phone&quot;:&quot;3147854107&quot;},{&quot;id&quot;:1620,&quot;title&quot;:&quot;Backup&quot;,&quot;name&quot;:&quot;Jordan Stuppy&quot;,&quot;email&quot;:&quot;JStuppy@changehealthcare.com&quot;,&quot;phone&quot;:&quot;3147854011&quot;},{&quot;id&quot;:1621,&quot;title&quot;:&quot;Manager&quot;,&quot;name&quot;:&quot;Matt Wilson&quot;,&quot;email&quot;:&quot;MwWilson@changehealthcare.com&quot;,&quot;phone&quot;:&quot;3147854330&quot;},{&quot;id&quot;:1622,&quot;title&quot;:&quot;Senior Director&quot;,&quot;name&quot;:&quot;Dana Buckner&quot;,&quot;email&quot;:&quot;Dbuckner@changehealthcare.com&quot;,&quot;phone&quot;:&quot;3147854314&quot;},{&quot;id&quot;:1623,&quot;title&quot;:&quot;SCE/CE&quot;,&quot;name&quot;:&quot;Lucy Savino&quot;,&quot;email&quot;:&quot;lsavino@changehealthcare.com&quot;,&quot;phone&quot;:&quot;6312449377&quot;}]</Result></SOAPSDK1:getContactsResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+*
+*
+
+*
+*
+SOAP RESPONSE
+TIME: 14/Nov/2018:05:56:56
+SOAP URI: /AbfMessageManager
+SOAPAction: http://tempuri.org/action/AbfMessageManager.displayMessages
+GUID: 31cffee0-fb82-4695-9100-253601972aaf
+HRESULT: 0x00000000
+HTTP Status: 200
+
+REQUEST MESSAGE:
+
+<?xml version='1.0' encoding='UTF-8'?>
+<soap:Envelope xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:soap='http://schemas.xmlsoap.org/soap/envelope/' xmlns:soapenc='http://schemas.xmlsoap.org/soap/encoding/' soap:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/' xmlns:ns5='http://tempuri.org/type'><soap:Header><SOAPSDK1:ABFJob xmlns:SOAPSDK1='http://abfhealth.com/JobControlHeader'><ShouldRunAtResource>ClientLayout=5707028</ShouldRunAtResource></SOAPSDK1:ABFJob></soap:Header><soap:Body><n:displayMessages xmlns:n='http://tempuri.org/message/'><oCtx href='#id0'></oCtx></n:displayMessages><id0 id='id0' soapenc:root='0' xsi:type='ns5:AbfSecurityContext'><userId xsi:type='xsd:string'>albeip</userId><client xsi:type='xsd:string'>5707</client><layout xsi:type='xsd:string'>028</layout><accessEntryId xsi:type='xsd:string'>1601020</accessEntryId><description xsi:type='xsd:string'>5707_028 - Wisconsin Physicians Service Insurance Corp: Superuser</description><ticket xsi:type='xsd:string'>eQcJjZZy3uFkMfKqDFLOUEPrNcYlC0E1uSIqMzJcpiU=</ticket><dataSourceDefinition xsi:type='xsd:string'>/5707/028/*</dataSourceDefinition><roleId xsi:type='xsd:string'>00000001</roleId></id0></soap:Body></soap:Envelope>
+
+RESPONSE MESSAGE:
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Body SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><SOAPSDK1:displayMessagesResponse xmlns:SOAPSDK1="http://tempuri.org/message/"><Result>&lt;collection type=&quot;Messages&quot; totalRecords=&quot;3&quot;&gt;
+&lt;Messages&gt;
+&lt;message&gt;
+&lt;msgData&gt;&lt;![CDATA[&lt;p&gt;
+	Lilandra arcade, whiplash whirlwind corsair deadpool miek. Bluemarvel pepperpotts quasimodo vision chimera. Urich armadillo firebird destiny, rocketraccoon puck crusher jessicajones countess. Goliath taskmaster caretaker speedball felicia inhumans purpleman genis-vell. Blink, loki onslaught mordo. Strucker morph masque gargoyle sage lizard sandman chimera spider-girl mimic kang. Wong, eternals romulus apocalypse wraith humantorch emmafrost juggernaut maelstrom antman puck chimera chamber? Captainmarvel feral rogue sage ghostrider. Korath gorgon rhino gladiator jessicadrew smasher shard moonknight grandmaster. Cannonball screwball morlun barnes jessicadrew blackheart surge grandmaster skrulls cyber sunfire namorita conners. Polaris grandmaster squirrel-girl tchalla amora warbound romulus blink warlock mephisto. Uatu sugarman nomad mrnegative mrfantastic blackknight. Maximus suestorm moonstone, loki titania strange mephisto? Rhino electro x-51 darkstar nomad. Karnak elixir warlock silvermane barnes barnes mandarin kitty moonstone arcade tchalla pryde. Grandmaster havok moleman octopus. Kingpin firebird bucky maestro fisk. Sugarman feral humantorch kang klaw mauler mauler bushwacker, x-force dugan screwball captainamerica mephisto. Tarantula namorita nova, quasimodo elixir spider-girl nuke lukecage? Nova crusher kraven elixir wrecker hobgoblin barton. Cardiac moonstone romulus rhino wolfsbane kingpin. Spider-woman arachne toxin, vanisher deathstrike! Ff tarantula mysterio deathbird lockjaw. Maximus boomboom blackbolt pyro star-lord quentinquire.&lt;/p&gt;
+]]&gt;&lt;/msgData&gt;
+&lt;msgDesc&gt;&lt;![CDATA[ChangeHealthcare Exceeds User Experience]]&gt;&lt;/msgDesc&gt;
+&lt;/message&gt;
+&lt;message&gt;
+&lt;msgData&gt;&lt;![CDATA[&lt;pre class=&quot;html prettyprint&quot; id=&quot;htmlOutput&quot; style=&quot;margin-top: 0px; margin-bottom: 0px; padding: 9px; border: none; line-height: 18px; font-family: Monaco, &amp;quot;Andale Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; border-radius: 4px; white-space: pre-wrap; word-wrap: break-word; box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px; overflow: scroll; height: 333px; width: 790px; color: rgb(64, 64, 64);&quot;&gt;
+Dictum convallis augue nisl eros torquent quis nunc! Nam morbi convallis senectus conubia orci magna venenatis! Justo arcu sit odio netus penatibus neque platea. Sociosqu tristique praesent gravida feugiat integer odio est leo penatibus fermentum. Ac nec at inceptos nostra luctus cubilia auctor nisi ac justo nunc. Feugiat magnis himenaeos parturient nibh semper est varius. Molestie ullamcorper tempor purus viverra blandit? Vulputate fusce elit bibendum curabitur vel pretium donec. Id class orci lorem hendrerit natoque bibendum dis donec vehicula hendrerit leo. Dapibus pharetra!
+
+&lt;div&gt;
+	&amp;nbsp;&lt;/div&gt;
+]]&gt;&lt;/msgData&gt;
+&lt;msgDesc&gt;&lt;![CDATA[New CAS Improvements]]&gt;&lt;/msgDesc&gt;
+&lt;/message&gt;
+&lt;message&gt;
+&lt;msgData&gt;&lt;![CDATA[&lt;p&gt;
+Quisque sollicitudin rhoncus velit primis a cum commodo integer pretium. Leo lorem curae; pulvinar, cursus nam per congue mauris suspendisse. Felis est nulla feugiat nulla vestibulum fringilla a et habitant ultrices donec class. Integer eu placerat neque lobortis sociis. Placerat eros felis sem ligula habitasse imperdiet scelerisque habitant litora cubilia class mus! Dignissim nam consequat ridiculus amet porttitor convallis. Consectetur nascetur class.
+&lt;/p&gt;
+&lt;p&gt;
+Commodo dictum ultrices aptent mollis? Cras feugiat, bibendum condimentum. Lobortis ultricies eu tempus sit varius curae; rutrum diam bibendum sed ornare. Mus, per nibh commodo odio varius tempor. Habitant ac nulla at faucibus posuere cursus. Id sit suspendisse tortor facilisis nisi. Odio felis sollicitudin duis id risus vestibulum imperdiet. Proin bibendum accumsan hac ullamcorper semper odio ultricies. Elementum, maecenas nibh tempus habitant auctor amet! Eleifend mollis laoreet torquent class? Diam ligula nunc fermentum augue sed vel convallis nisi faucibus eleifend parturient justo. At, congue neque class. Sagittis proin pharetra sociis nisi morbi nullam dignissim fames nisl.
+&lt;/p&gt;
+&lt;p&gt;
+Facilisis volutpat mattis consequat posuere ridiculus maecenas consequat libero. Consectetur nam facilisi phasellus per velit! Egestas placerat cum leo nibh. Nibh pellentesque posuere imperdiet senectus in vivamus volutpat ut consectetur fusce. Auctor lobortis, ultricies taciti venenatis tempus parturient. Leo conubia proin inceptos odio cubilia erat pellentesque magnis massa tempor velit? Facilisis at dapibus montes ultrices hac odio felis donec porta cubilia scelerisque? Enim et nascetur tellus tellus scelerisque elit tempor tempor suspendisse. Etiam nisi urna lectus potenti mi rhoncus potenti eget sem elit maecenas. Aliquet scelerisque praesent id purus integer nec orci dui tristique adipiscing.
+&lt;/p&gt;
+&lt;p&gt;
+Natoque pulvinar dapibus accumsan cum. Lacinia eleifend, lorem parturient. Nam mi euismod habitant venenatis hac class magnis iaculis sed nostra a. Nunc dapibus pulvinar iaculis vehicula parturient viverra vulputate nisi! Taciti phasellus nunc mollis dis venenatis lacus eleifend tellus magna facilisis. Hac nullam, et accumsan. Accumsan elit mauris dui aliquam sed fames porttitor. Duis lorem neque sociis nullam vel orci. Quis viverra congue, sociis nulla at. Enim adipiscing praesent sed ultricies risus convallis faucibus. Adipiscing libero dapibus est netus neque maecenas mus etiam!
+&lt;/p&gt;
+&lt;p&gt;
+Sit habitasse elementum tempus nibh platea aenean elementum habitasse erat placerat dictum vivamus? Cum erat semper nisl egestas inceptos vulputate nunc; dui aliquam non nulla. Et lobortis condimentum pretium. Tempor nec convallis vulputate mus proin! Torquent penatibus feugiat elementum mattis vulputate, malesuada pellentesque pretium? Sapien et, leo phasellus diam aliquam libero duis. Enim, ultrices laoreet augue vel euismod praesent. Inceptos dictum risus ante sociis ut. Pellentesque ullamcorper adipiscing ridiculus curae; iaculis senectus montes? Rutrum aptent metus proin placerat tempor. Luctus per mus dignissim at habitant dolor penatibus cubilia!
+&lt;/p&gt;]]&gt;&lt;/msgData&gt;
+&lt;msgDesc&gt;&lt;![CDATA[Celebrating Labor Day Working]]&gt;&lt;/msgDesc&gt;
+&lt;/message&gt;
+&lt;/Messages&gt;
+&lt;/collection&gt;
+</Result></SOAPSDK1:displayMessagesResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+*
+*
+
+*
+*
+SOAP RESPONSE
+TIME: 14/Nov/2018:05:56:59
+SOAP URI: /CHCHomePageManager
+SOAPAction: http://tempuri.org/action/HomePageManager.getNumActiveSiebelTickets
+GUID: 56df0748-7e1d-473f-99a8-a77a3bd41785
+HRESULT: 0x00000000
+HTTP Status: 200
+
+REQUEST MESSAGE:
+
+<?xml version='1.0' encoding='UTF-8'?>
+<soap:Envelope xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:soap='http://schemas.xmlsoap.org/soap/envelope/' xmlns:soapenc='http://schemas.xmlsoap.org/soap/encoding/' soap:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'><soap:Header><SOAPSDK1:ABFJob xmlns:SOAPSDK1='http://abfhealth.com/JobControlHeader'><ShouldRunAtResource>ClientLayout=5707028</ShouldRunAtResource></SOAPSDK1:ABFJob></soap:Header><soap:Body><n:getNumActiveSiebelTickets xmlns:n='http://tempuri.org/message/'><clientLayout xsi:type='xsd:string'>5707028</clientLayout></n:getNumActiveSiebelTickets></soap:Body></soap:Envelope>
+
+RESPONSE MESSAGE:
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Body SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Fault><faultcode>SOAP-ENV:Client</faultcode><faultstring>HomePageManager.getNumActiveSiebelTickets:ORA-1017: invalid username/password; logon denied</faultstring><faultactor>HomePageManager</faultactor><detail><returnCode>0x80131500</returnCode></detail></SOAP-ENV:Fault></SOAP-ENV:Body></SOAP-ENV:Envelope>
+*
+*
+
+*
+*
+SOAP RESPONSE
+TIME: 14/Nov/2018:05:57:07
+SOAP URI: /CHCHomePageManager
+SOAPAction: http://tempuri.org/action/HomePageManager.getPaymentAndSavingsMetrics
+GUID: fa19faed-bde1-4031-a94c-a309289c41f4
+HRESULT: 0x00000000
+HTTP Status: 200
+
+REQUEST MESSAGE:
+
+<?xml version='1.0' encoding='UTF-8'?>
+<soap:Envelope xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:soap='http://schemas.xmlsoap.org/soap/envelope/' xmlns:soapenc='http://schemas.xmlsoap.org/soap/encoding/' soap:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'><soap:Header><SOAPSDK1:ABFJob xmlns:SOAPSDK1='http://abfhealth.com/JobControlHeader'><ShouldRunAtResource>ClientLayout=5707028</ShouldRunAtResource></SOAPSDK1:ABFJob></soap:Header><soap:Body><n:getPaymentAndSavingsMetrics xmlns:n='http://tempuri.org/message/'><clientLayout xsi:type='xsd:string'>5707028</clientLayout></n:getPaymentAndSavingsMetrics></soap:Body></soap:Envelope>
+
+RESPONSE MESSAGE:
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Body SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><SOAPSDK1:getPaymentAndSavingsMetricsResponse xmlns:SOAPSDK1="http://tempuri.org/message/"><Result>{&quot;hpusaSavings&quot;:13023.00, &quot;numPayments&quot;:1, &quot;amtPayments&quot;:23.29}</Result></SOAPSDK1:getPaymentAndSavingsMetricsResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+*
+*
+
+*
+*
+SOAP RESPONSE
+TIME: 14/Nov/2018:05:57:11
+SOAP URI: /CHCHomePageManager
+SOAPAction: http://tempuri.org/action/HomePageManager.getProductOutputMetrics
+GUID: aca72453-458d-47b0-a2bf-b711538877ff
+HRESULT: 0x00000000
+HTTP Status: 200
+
+REQUEST MESSAGE:
+
+<?xml version='1.0' encoding='UTF-8'?>
+<soap:Envelope xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:soap='http://schemas.xmlsoap.org/soap/envelope/' xmlns:soapenc='http://schemas.xmlsoap.org/soap/encoding/' soap:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'><soap:Header><SOAPSDK1:ABFJob xmlns:SOAPSDK1='http://abfhealth.com/JobControlHeader'><ShouldRunAtResource>ClientLayout=5707028</ShouldRunAtResource></SOAPSDK1:ABFJob></soap:Header><soap:Body><n:getProductOutputMetrics xmlns:n='http://tempuri.org/message/'><clientLayout xsi:type='xsd:string'>5707028</clientLayout><userType xsi:type='xsd:string'>E</userType></n:getProductOutputMetrics></soap:Body></soap:Envelope>
+
+RESPONSE MESSAGE:
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Body SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><SOAPSDK1:getProductOutputMetricsResponse xmlns:SOAPSDK1="http://tempuri.org/message/"><Result>{&quot;numHolds&quot;:10,&quot;numDocumentsProcessed&quot;:1,&quot;activeUsers&quot;:1}</Result></SOAPSDK1:getProductOutputMetricsResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+*
+*
+
